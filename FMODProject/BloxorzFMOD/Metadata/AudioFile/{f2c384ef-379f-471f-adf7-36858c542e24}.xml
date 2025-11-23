@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f2c384ef-379f-471f-adf7-36858c542e24}">
+		<property name="assetPath">
+			<value>orange2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.48320833333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{be735f5e-5a6e-4243-a9ac-a6cf7a461605}</destination>
+		</relationship>
+	</object>
+</objects>
