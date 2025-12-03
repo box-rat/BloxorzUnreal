@@ -18,6 +18,14 @@
 		{
 			"Name": "StudioTelemetry",
 			"Enabled": false
+		},
+		{
+			"Name": "FMODStudioNiagara",
+			"Enabled": true
+		},
+		{
+			"Name": "FMODStudio",
+			"Enabled": true
 		}
 	]
 }
