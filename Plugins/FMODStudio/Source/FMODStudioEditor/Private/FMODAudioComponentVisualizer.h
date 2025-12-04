@@ -1,13 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "ComponentVisualizer.h"
-
-class FFMODAudioComponentVisualizer : public FComponentVisualizer
-{
-public:
-    // Begin FComponentVisualizer interface
-    virtual void DrawVisualization(const UActorComponent *Component, const FSceneView *View, FPrimitiveDrawInterface *PDI) override;
-    // End FComponentVisualizer interface
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:970bd3a6293ce9feb4afdfc5ee088b1144c2d048cacf164e929449ffdc6c0050
+size 422

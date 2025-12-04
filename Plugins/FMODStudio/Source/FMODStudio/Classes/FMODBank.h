@@ -1,22 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "FMODAsset.h"
-#include "FMODBank.generated.h"
-
-/**
- * FMOD Bank Asset.
- */
-UCLASS()
-class FMODSTUDIO_API UFMODBank : public UFMODAsset
-{
-    GENERATED_UCLASS_BODY()
-
-private:
-    /** Get tags to show in content view */
-    virtual void GetAssetRegistryTags(FAssetRegistryTagsContext Context) const override;
-
-    /** Descriptive name */
-    virtual FString GetDesc() override;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:caaf237d47358e89bb2d8d0ec9bca20447669360c225dc37ed7afd308380eeef
+size 488

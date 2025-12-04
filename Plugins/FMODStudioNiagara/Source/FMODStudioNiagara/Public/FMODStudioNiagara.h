@@ -1,15 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Modules/ModuleManager.h"
-
-class FFMODStudioNiagaraModule : public IModuleInterface
-{
-public:
-
-	/** IModuleInterface implementation */
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a89c606735eb412e316eacb15e61c907dd94966ce2bf75e87d24115759d970d
+size 334

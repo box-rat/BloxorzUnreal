@@ -1,30 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "Containers/UnrealString.h"
-#include "Misc/DateTime.h"
-#include "Delegates/Delegate.h"
-
-class FFMODBankUpdateNotifier
-{
-public:
-    FFMODBankUpdateNotifier();
-
-    void SetFilePath(const FString &InPath);
-    void Update(float DeltaTime);
-
-    void EnableUpdate(bool bEnable);
-
-    FSimpleMulticastDelegate BanksUpdatedEvent;
-
-private:
-    void Refresh();
-    FDateTime MostRecentFileTime();
-
-    bool bUpdateEnabled;
-    FString FilePath;
-    FDateTime NextRefreshTime;
-    FDateTime FileTime;
-    float Countdown;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:7be3f8dcef43f3ae0dbd60903b08f4443fcc23d180a22eac898970c09d587ac1
+size 635

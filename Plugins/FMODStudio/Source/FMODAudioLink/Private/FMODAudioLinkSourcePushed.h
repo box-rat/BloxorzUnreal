@@ -1,23 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2024-2024.
-
-#pragma once
-#include "FMODAudioLinkInputClient.h"
-
-#include "IAudioLink.h"
-#include "IBufferedAudioOutput.h"
-
-struct FFMODAudioLinkSourcePushed : IAudioLinkSourcePushed
-{
-    int32 SourceId = INDEX_NONE;
-    int32 NumFramesReceivedSoFar = INDEX_NONE;
-    FSharedBufferedOutputPtr ProducerSP;
-    FSharedFMODAudioLinkInputClientPtr ConsumerSP;
-    IAudioLinkFactory::FAudioLinkSourcePushedCreateArgs CreateArgs;
-
-    FFMODAudioLinkSourcePushed(const IAudioLinkFactory::FAudioLinkSourcePushedCreateArgs& InArgs, IAudioLinkFactory* InFactory);
-    virtual ~FFMODAudioLinkSourcePushed() override;
-    void OnNewBuffer(const FOnNewBufferParams& InArgs) override;
-    void OnSourceDone(const int32 InSourceId) override;
-    void OnSourceReleased(const int32 InSourceId) override;
-    void OnUpdateWorldState(const FOnUpdateWorldStateParams& InParams) override;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:e40472ee231ccb0304241734f1ec7cc61d6c132b35b21d5261b0f6605f99cc90
+size 943

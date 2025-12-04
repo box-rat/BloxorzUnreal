@@ -1,22 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-#pragma once
-
-#include "Containers/UnrealString.h"
-#include "fmod_common.h"
-#include "FMODSettings.h"
-
-FString FMODPlatform_GetDllPath(const TCHAR *ShortName, bool bExplicitPath, bool bUseLibPrefix);
-
-EFMODPlatforms::Type FMODPlatform_CurrentPlatform();
-
-FString FMODPlatform_PlatformName();
-
-void FMODPlatform_SetRealChannelCount(FMOD_ADVANCEDSETTINGS* advSettings);
-
-int FMODPlatform_MemoryPoolSize();
-
-#ifdef FMOD_PLATFORM_LOAD_DLL
-void* FMODPlatformLoadDll(const TCHAR* LibToLoad);
-#endif
-
-FMOD_RESULT FMODPlatformSystemSetup();
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd6f8d1ae723aebf838a2096e65fba92c3394c8c7c7ac0e6e6c24b738106b082
+size 615

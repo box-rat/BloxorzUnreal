@@ -1,19 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "FMODEvent.h"
-#include "FMODSnapshot.generated.h"
-
-/**
- * FMOD Snapshot Asset.
- */
-UCLASS()
-class FMODSTUDIO_API UFMODSnapshot : public UFMODEvent
-{
-    GENERATED_UCLASS_BODY()
-
-private:
-    /** Descriptive name */
-    virtual FString GetDesc() override;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:6df6d0bcecb2a814a1138bfd527e8ec7e8e49d699adbdfcb7a010187479ef18b
+size 363

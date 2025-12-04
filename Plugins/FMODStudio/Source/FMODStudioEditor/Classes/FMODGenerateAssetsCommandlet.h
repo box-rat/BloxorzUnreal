@@ -1,20 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Commandlets/Commandlet.h"
-#include "FMODGenerateAssetsCommandlet.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class UFMODGenerateAssetsCommandlet : public UCommandlet
-{
-    GENERATED_UCLASS_BODY()
-
-    //~ Begin UCommandlet Interface
-    virtual int32 Main(const FString &Params) override;
-    //~ End UCommandlet Interface
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:c387b6445f3d12c3b13d3c6fd4107b4dc111f3109bd4b343e552678fbc6914c2
+size 438

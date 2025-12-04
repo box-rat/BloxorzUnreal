@@ -1,26 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2024-2024.
-
-#pragma once
-
-#include "FMODAudioLink.h"
-#include "IAudioLinkFactory.h"
-
-class FFMODAudioLinkFactory : public IAudioLinkFactory
-{
-public:
-    FFMODAudioLinkFactory() = default;
-    virtual ~FFMODAudioLinkFactory() override = default;
-
-    static FName GetFactoryNameStatic();
-    static bool bHasSubmix;
-
-protected:
-    /** Begin IAudioLinkFactory */
-    FName GetFactoryName() const override;
-    TSubclassOf<UAudioLinkSettingsAbstract> GetSettingsClass() const override;
-    TUniquePtr<IAudioLink> CreateSubmixAudioLink(const FAudioLinkSubmixCreateArgs&) override;
-    TUniquePtr<IAudioLink> CreateSourceAudioLink(const FAudioLinkSourceCreateArgs&) override;
-    FAudioLinkSourcePushedSharedPtr CreateSourcePushedAudioLink(const FAudioLinkSourcePushedCreateArgs&) override;
-    FAudioLinkSynchronizerSharedPtr CreateSynchronizerAudioLink() override;
-    /** End IAudioLinkFactory */
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:c08bd97eba48e9025e20a66f4a0f1620f43b717ed1cb696a46b6b02cf2db6a0f
+size 975

@@ -1,22 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "FMODAsset.h"
-#include "FMODPort.generated.h"
-
-/**
- * FMOD Port Asset.
- */
-UCLASS()
-class FMODSTUDIO_API UFMODPort : public UFMODAsset
-{
-    GENERATED_UCLASS_BODY()
-
-private:
-    /** Get tags to show in content view */
-    virtual void GetAssetRegistryTags(FAssetRegistryTagsContext Context) const override;
-
-    /** Descriptive name */
-    virtual FString GetDesc() override;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:415ea8d009128e0b6bc3149c5bd75bb30b0586335ea4505831823ae935142cf8
+size 488

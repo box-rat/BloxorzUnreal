@@ -1,26 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-//#include "PropertyEditing.h"
-#include "PropertyCustomizationHelpers.h"
-#include "IDetailCustomization.h"
-
-class IDetailLayoutBuilder;
-
-class FFMODAudioComponentDetails : public IDetailCustomization
-{
-public:
-    /** Makes a new instance of this detail layout class for a specific detail view requesting it */
-    static TSharedRef<IDetailCustomization> MakeInstance();
-
-private:
-    /** IDetailCustomization interface */
-    virtual void CustomizeDetails(IDetailLayoutBuilder &DetailBuilder) override;
-
-    FReply OnEditSoundClicked();
-    FReply OnPlaySoundClicked();
-    FReply OnStopSoundClicked();
-
-    TWeakObjectPtr<class UFMODAudioComponent> AudioComponent;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e7fd65394dbc13df9d7e8430d177d8108fa6b1a960434b9bab094fe3aabcaca
+size 771

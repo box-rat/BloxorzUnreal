@@ -1,20 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#include "FMODBank.h"
-#include "FMODStudioModule.h"
-
-UFMODBank::UFMODBank(const FObjectInitializer &ObjectInitializer)
-    : Super(ObjectInitializer)
-{
-}
-
-/** Get tags to show in content view */
-void UFMODBank::GetAssetRegistryTags(FAssetRegistryTagsContext Context) const
-{
-    Super::GetAssetRegistryTags(Context);
-}
-
-FString UFMODBank::GetDesc()
-{
-    return FString::Printf(TEXT("Bank %s"), *AssetGuid.ToString(EGuidFormats::DigitsWithHyphensInBraces));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f9c506b5e2a5d377ebcbe1df58fc63098ca56eff05e9bf0de89e922fb95c966
+size 543

@@ -1,24 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-#include "Styling/SlateStyle.h"
-#include "EditorStyleSet.h"
-
-class FFMODStudioStyle
-{
-public:
-    static void Initialize();
-
-    static FName GetStyleSetName();
-
-    static void Shutdown();
-
-private:
-    static TSharedRef<class FSlateStyleSet> Create();
-
-private:
-    static TSharedPtr<class FSlateStyleSet> StyleInstance;
-
-private:
-    FFMODStudioStyle() {}
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:a10671b6f5672bb04a28883957327a7ee7ed6a1ff6fb2915be179ef4b726cd5d
+size 462

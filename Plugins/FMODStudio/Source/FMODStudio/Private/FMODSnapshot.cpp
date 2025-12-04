@@ -1,14 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#include "FMODSnapshot.h"
-#include "FMODStudioModule.h"
-
-UFMODSnapshot::UFMODSnapshot(const FObjectInitializer &ObjectInitializer)
-    : Super(ObjectInitializer)
-{
-}
-
-FString UFMODSnapshot::GetDesc()
-{
-    return FString::Printf(TEXT("Snapshot %s"), *AssetGuid.ToString(EGuidFormats::DigitsWithHyphensInBraces));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ae3ab1f3012df6c51d4f14ba47e7c2ec5c087f5d95cd2faeffacff4063ed112
+size 392

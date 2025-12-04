@@ -1,19 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-#pragma once
-
-#include "Runtime/Engine/Classes/Components/SceneComponent.h"
-#include "Runtime/Engine/Classes/Camera/CameraComponent.h"
-#include "Runtime/Engine/Classes/Curves/IntegralCurve.h"
-#include "Runtime/Engine/Classes/Curves/NameCurve.h"
-#include "Runtime/Engine/Classes/Curves/RichCurve.h"
-#include "Runtime/MovieScene/Public/MovieScene.h"
-#include "Runtime/MovieScene/Public/KeyParams.h"
-
-#include "Editor/Sequencer/Public/ISectionLayoutBuilder.h"
-#include "Editor/Sequencer/Public/ISequencerSection.h"
-#include "Editor/Sequencer/Public/MovieSceneTrackEditor.h"
-#include "Runtime/MovieScene/Public/MovieSceneCommonHelpers.h"
-#include "Runtime/MovieScene/Public/MovieSceneSection.h"
-#include "Editor/UnrealEd/Public/ScopedTransaction.h"
-
-DECLARE_LOG_CATEGORY_EXTERN(LogFMOD, Log, All);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f90a4cc203e28965093d2bbd6de831f2f12508fe068c0d5896f22105e60dc59a
+size 873

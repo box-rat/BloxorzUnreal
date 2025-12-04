@@ -1,36 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2024-2024.
-
-#pragma once
-
-#include "IAudioLink.h"
-#include "AudioDevice.h"
-#include "IBufferedAudioOutput.h"
-#include "FMODAudioLinkInputClient.h"
-
-//* AudioLink Instance, a container holding shared pointers for lifetime management. */
-struct FFMODAudioLink : IAudioLink
-{
-    FSharedBufferedOutputPtr ProducerSP;
-
-    FSharedFMODAudioLinkInputClientPtr ConsumerSP;
-
-    FAudioDevice* AudioDevice;
-
-    FFMODAudioLink(const FSharedBufferedOutputPtr& InProducerSP, const FSharedFMODAudioLinkInputClientPtr& InConsumerSP, FAudioDevice* InAudioDevice = nullptr)
-        : ProducerSP(InProducerSP)
-        , ConsumerSP(InConsumerSP)
-        , AudioDevice(InAudioDevice)
-    {}
-
-    virtual ~FFMODAudioLink() override
-    {
-        if (ConsumerSP.IsValid())
-        {
-            ConsumerSP->Stop();
-        }
-        if (AudioDevice && ProducerSP.IsValid())
-        {
-            ProducerSP->Stop(AudioDevice);
-        }
-    }
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:996553c059ca1eb06f3fd0974c5b999c2a18150aa6276f839610448b38b81a9a
+size 1011

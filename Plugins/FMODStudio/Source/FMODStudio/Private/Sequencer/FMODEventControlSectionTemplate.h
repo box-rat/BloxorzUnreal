@@ -1,30 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "UObject/ObjectMacros.h"
-#include "Evaluation/MovieSceneEvalTemplate.h"
-#include "FMODEventControlSection.h"
-#include "FMODEventControlSectionTemplate.generated.h"
-
-USTRUCT()
-struct FFMODEventControlSectionTemplate : public FMovieSceneEvalTemplate
-{
-    GENERATED_BODY()
-
-    FFMODEventControlSectionTemplate() {}
-    FFMODEventControlSectionTemplate(const UFMODEventControlSection &Section);
-
-    UPROPERTY()
-    FFMODEventControlChannel ControlKeys;
-
-private:
-    virtual UScriptStruct &GetScriptStructImpl() const override { return *StaticStruct(); }
-    virtual void Setup(FPersistentEvaluationData &PersistentData, IMovieScenePlayer &Player) const override;
-    virtual void TearDown(FPersistentEvaluationData &PersistentData, IMovieScenePlayer &Player) const override;
-    virtual void Evaluate(const FMovieSceneEvaluationOperand &Operand, const FMovieSceneContext &Context,
-        const FPersistentEvaluationData &PersistentData, FMovieSceneExecutionTokens &ExecutionTokens) const override;
-
-    mutable bool IsEditorSequence;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebe555ffe6264a4d9c5f3602863c352ab7a62ccb729fa678d0b141b42a6c9b62
+size 1177

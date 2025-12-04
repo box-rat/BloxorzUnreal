@@ -1,25 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2024.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Misc/Attribute.h"
-#include "Input/Reply.h"
-#include "IDetailCustomization.h"
-#include "PropertyHandle.h"
-
-class IDetailLayoutBuilder;
-
-class FFMODSettingsCustomization : public IDetailCustomization
-{
-public:
-    // Makes a new instance of this detail layout class for a specific detail view requesting it
-    static TSharedRef<IDetailCustomization> MakeInstance();
-
-    // IDetailCustomization interface
-    virtual void CustomizeDetails(IDetailLayoutBuilder& DetailLayout) override;
-    // End of IDetailCustomization interface
-
-private:
-    FFMODSettingsCustomization();
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:1213d7b287cea6576149484fcc041e7b42b2327fecda5a1fa6333cb0994acedd
+size 708

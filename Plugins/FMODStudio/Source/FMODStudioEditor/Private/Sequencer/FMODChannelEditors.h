@@ -1,14 +1,3 @@
-#pragma once
-
-#include "MVVM/Views/KeyDrawParams.h"
-#include "Channels/MovieSceneChannelHandle.h"
-#include "Sequencer/FMODEventControlSection.h"
-
-/** Key editor overrides */
-bool CanCreateKeyEditor(const FFMODEventControlChannel* Channel);
-
-TSharedRef<SWidget> CreateKeyEditor(const TMovieSceneChannelHandle<FFMODEventControlChannel>& Channel, UMovieSceneSection* Section,
-    const FGuid& InObjectBindingID, TWeakPtr<FTrackInstancePropertyBindings> PropertyBindings, TWeakPtr<ISequencer> InSequencer);
-
-/** Key drawing overrides */
-void DrawKeys(FFMODEventControlChannel *Channel, TArrayView<const FKeyHandle> InKeyHandles, const UMovieSceneSection* InOwner, TArrayView<FKeyDrawParams> OutKeyDrawParams);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1167b56088243db832cd124b214f9c07aa40f572949daea83f4cf7819a96ff2
+size 720

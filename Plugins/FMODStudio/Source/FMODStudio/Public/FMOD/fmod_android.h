@@ -1,7 +1,3 @@
-#pragma once
-
-#include "fmod_common.h"
-#include <jni.h>
-
-extern "C" FMOD_RESULT F_API FMOD_Android_JNI_Init(JavaVM *vm, jobject javaActivity);
-extern "C" FMOD_RESULT F_API FMOD_Android_JNI_Close();
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5cd9e25eda1639853e23e66e5ded3f1ee5dad71e3fb7525eedf41a234105219
+size 205

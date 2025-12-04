@@ -1,21 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "ISequencerSection.h"
-
-class UMovieSceneSection;
-
-/** A movie scene section for Event parameters. */
-class FFMODParameterSection : public FSequencerSection
-{
-public:
-    FFMODParameterSection(UMovieSceneSection &InSectionObject)
-        : FSequencerSection(InSectionObject)
-    {
-    }
-
-    // Begin ISequencerSection interface
-    virtual bool RequestDeleteKeyArea(const TArray<FName> &KeyAreaNamePath) override;
-    // End ISequencerSection interface
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:944d30a927c46f0d1c9de08dfb61dee6e81d2183fbda114d4e96574607dcae10
+size 561

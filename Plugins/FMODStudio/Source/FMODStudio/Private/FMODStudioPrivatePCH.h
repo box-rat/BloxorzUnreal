@@ -1,9 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-#pragma once
-
-#include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
-#include "Components/SceneComponent.h"
-#include "Runtime/Launch/Resources/Version.h"
-
-DECLARE_LOG_CATEGORY_EXTERN(LogFMOD, Log, All);
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdc9c29a9c8f9c0fdc1ac1838feeb2ae74cfe662f619dac93441845c29a886fc
+size 277

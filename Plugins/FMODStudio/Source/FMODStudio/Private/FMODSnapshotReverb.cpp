@@ -1,19 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#include "FMODSnapshotReverb.h"
-
-UFMODSnapshotReverb::UFMODSnapshotReverb(const FObjectInitializer &ObjectInitializer)
-    : Super(ObjectInitializer)
-{
-}
-
-bool UFMODSnapshotReverb::IsAsset() const
-{
-    return this != GetClass()->GetDefaultObject();
-}
-
-#if WITH_EDITORONLY_DATA
-void UFMODSnapshotReverb::PostEditChangeProperty(FPropertyChangedEvent &PropertyChangedEvent)
-{
-}
-#endif // EDITORONLY_DATA
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5e806f5053e7de117c58ed56b65e65b0e9f6cdb40e2c52ef4c6ab70b9d8f378
+size 482

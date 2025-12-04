@@ -1,22 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "FMODAsset.h"
-#include "FMODVCA.generated.h"
-
-/**
- * FMOD VCA Asset.
- */
-UCLASS()
-class FMODSTUDIO_API UFMODVCA : public UFMODAsset
-{
-    GENERATED_UCLASS_BODY()
-
-private:
-    /** Get tags to show in content view */
-    virtual void GetAssetRegistryTags(FAssetRegistryTagsContext Context) const override;
-
-    /** Descriptive name */
-    virtual FString GetDesc() override;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:357d8e473d43eebc810b882fe724ef347c5163aca2535044ff66f11ca7b645df
+size 485

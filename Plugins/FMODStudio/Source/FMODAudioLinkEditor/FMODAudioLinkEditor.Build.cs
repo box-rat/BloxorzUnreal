@@ -1,15 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2024-2024.
-
-using UnrealBuildTool;
-using System;
-
-public struct FMODAudioLinkEditor
-{
-    public static void Apply(UnrealBuildTool.Rules.FMODStudio FMODModule, ReadOnlyTargetRules Target)
-    {
-        if (Target.bBuildEditor)
-        {
-            FMODModule.AddModule("FMODAudioLinkEditor", false);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:80134845e5ca1e6f90e04ea7bf38815167d1add9560537b55a049c256af36c68
+size 383

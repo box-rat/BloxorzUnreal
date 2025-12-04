@@ -1,26 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "FMODAudioComponent.h"
-#include "FMODAmbientSound.generated.h"
-
-/** FMOD Ambient Sound.
-*/
-UCLASS(AutoExpandCategories = Audio, ClassGroup = Sounds, hidecategories(Collision, Input))
-class FMODSTUDIO_API AFMODAmbientSound : public AActor
-{
-    GENERATED_UCLASS_BODY()
-
-public:
-    /** The Audio component for this actor */
-    UPROPERTY(Category = Sound, VisibleAnywhere, BlueprintReadOnly, meta = (ExposeFunctionCategories = "Sound"))
-    UFMODAudioComponent *AudioComponent;
-
-// Begin AActor interface.
-#if WITH_EDITOR
-    virtual void CheckForErrors() override;
-    virtual bool GetReferencedContentObjects(TArray<UObject *> &Objects) const override;
-#endif
-// End AActor interface.
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5cac2f4946696275ec007455a870e51043a5f29113af0f0bf1afc55d7134481
+size 801

@@ -1,30 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2024-2024.
-
-#pragma once
-
-#include "Factories/Factory.h"
-#include "AssetTypeActions_Base.h"
-#include "AssetToolsModule.h"
-
-#include "FMODAudioLinkSettingsFactory.generated.h"
-
-UCLASS(hidecategories = Object, MinimalAPI)
-class UFMODAudioLinkSettingsFactory : public UFactory
-{
-    GENERATED_UCLASS_BODY()
-
-    virtual UObject* FactoryCreateNew(UClass* Class, UObject* InParent, FName Name, EObjectFlags Flags, UObject* Context,
-        FFeedbackContext* Warn) override;
-
-    virtual uint32 GetMenuCategories() const override;
-};
-
-class FAssetTypeActions_FMODAudioLinkSettings : public FAssetTypeActions_Base
-{
-public:
-    virtual FText GetName() const override;
-    virtual FColor GetTypeColor() const override;
-    virtual const TArray<FText>& GetSubMenus() const override;
-    virtual UClass* GetSupportedClass() const override;
-    virtual uint32 GetCategories() override;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:3987f3fd6f46d4995fbc1528875215b3950c650235f2324881527ed3336a88a9
+size 957

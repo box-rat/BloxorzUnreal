@@ -1,20 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#pragma once
-
-#include "ActorFactories/ActorFactory.h"
-#include "FMODAmbientSoundActorFactory.generated.h"
-
-/** FMOD Ambient Sound Actor Factory.
-*/
-UCLASS(MinimalAPI, config = Editor, collapsecategories, hidecategories = Object)
-class UFMODAmbientSoundActorFactory : public UActorFactory
-{
-    GENERATED_UCLASS_BODY()
-
-    // Begin UActorFactory Interface
-    virtual void PostSpawnActor(UObject *Asset, AActor *NewActor) override;
-    virtual bool CanCreateActorFrom(const FAssetData &AssetData, FText &OutErrorMsg) override;
-    virtual UObject *GetAssetFromActorInstance(AActor *ActorInstance) override;
-    // End UActorFactory Interface
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef43cc79332d3b54e0c545c670c5e71dc517be14516ffd0e3a278b0e84950051
+size 729

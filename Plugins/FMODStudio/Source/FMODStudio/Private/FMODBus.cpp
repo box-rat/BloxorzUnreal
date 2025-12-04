@@ -1,20 +1,3 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
-
-#include "FMODBus.h"
-#include "FMODStudioModule.h"
-
-UFMODBus::UFMODBus(const FObjectInitializer &ObjectInitializer)
-    : Super(ObjectInitializer)
-{
-}
-
-/** Get tags to show in content view */
-void UFMODBus::GetAssetRegistryTags(FAssetRegistryTagsContext Context) const
-{
-    Super::GetAssetRegistryTags(Context);
-}
-
-FString UFMODBus::GetDesc()
-{
-    return FString::Printf(TEXT("Bus %s"), *AssetGuid.ToString(EGuidFormats::DigitsWithHyphensInBraces));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f493b12670369f9a0277b220439519df4c60fb58d5009804131ad2361e21850
+size 537
